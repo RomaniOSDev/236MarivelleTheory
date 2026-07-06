@@ -78,7 +78,7 @@ struct PrimaryButton: View {
                     .minimumScaleFactor(0.7)
             }
             .font(.headline)
-            .foregroundStyle(Color("AppTextPrimary"))
+            .foregroundStyle(Color("AppBackground"))
             .frame(maxWidth: .infinity)
             .padding(.horizontal, 16)
             .padding(.vertical, 13)

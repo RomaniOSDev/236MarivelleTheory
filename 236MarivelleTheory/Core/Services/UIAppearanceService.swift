@@ -6,11 +6,12 @@ enum UIAppearanceService {
         let secondary = UIColor(named: "AppTextSecondary") ?? .white
         let surface = UIColor(named: "AppSurface") ?? .darkGray
         let accent = UIColor(named: "AppPrimary") ?? .yellow
+        let onAccent = UIColor(named: "AppBackground") ?? .black
 
         UISegmentedControl.appearance().selectedSegmentTintColor = accent
         UISegmentedControl.appearance().backgroundColor = surface
         UISegmentedControl.appearance().setTitleTextAttributes(
-            [.foregroundColor: primary],
+            [.foregroundColor: onAccent],
             for: .selected
         )
         UISegmentedControl.appearance().setTitleTextAttributes(
