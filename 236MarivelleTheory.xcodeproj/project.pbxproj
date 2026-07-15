@@ -7,110 +7,171 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30A366BF2FF4602B00F171B4 /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 30A366B22FF4602B00F171B4 /* privacy_policy.md */; };
-		30A366C02FF4602B00F171B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A366B52FF4602B00F171B4 /* Assets.xcassets */; };
-		30A366C22FF4602B00F171B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A366B92FF4602B00F171B4 /* LaunchScreen.storyboard */; };
-		30A366C32FF4602B00F171B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A366BB2FF4602B00F171B4 /* Main.storyboard */; };
-		30A366C42FF4602B00F171B4 /* AppCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366722FF4602B00F171B4 /* AppCells.swift */; };
-		30A366C52FF4602B00F171B4 /* WindCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366732FF4602B00F171B4 /* WindCells.swift */; };
-		30A366C62FF4602B00F171B4 /* DepthStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366752FF4602B00F171B4 /* DepthStyle.swift */; };
-		30A366C72FF4602B00F171B4 /* ActivityIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366772FF4602B00F171B4 /* ActivityIllustrationView.swift */; };
-		30A366C82FF4602B00F171B4 /* BackgroundPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366782FF4602B00F171B4 /* BackgroundPatternView.swift */; };
-		30A366C92FF4602B00F171B4 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366792FF4602B00F171B4 /* CustomTabBar.swift */; };
-		30A366CA2FF4602B00F171B4 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3667A2FF4602B00F171B4 /* ShakeEffect.swift */; };
-		30A366CB2FF4602B00F171B4 /* SuccessOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3667B2FF4602B00F171B4 /* SuccessOverlay.swift */; };
-		30A366CC2FF4602B00F171B4 /* WindCompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3667C2FF4602B00F171B4 /* WindCompassView.swift */; };
-		30A366CD2FF4602B00F171B4 /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3667E2FF4602B00F171B4 /* AppDataStore.swift */; };
-		30A366CE2FF4602B00F171B4 /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366802FF4602B00F171B4 /* AppLink.swift */; };
-		30A366CF2FF4602B00F171B4 /* Notification+DataReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366822FF4602B00F171B4 /* Notification+DataReset.swift */; };
-		30A366D02FF4602B00F171B4 /* ActivitySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366842FF4602B00F171B4 /* ActivitySession.swift */; };
-		30A366D12FF4602B00F171B4 /* AppInsight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366852FF4602B00F171B4 /* AppInsight.swift */; };
-		30A366D22FF4602B00F171B4 /* LiveWindConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366862FF4602B00F171B4 /* LiveWindConditions.swift */; };
-		30A366D32FF4602B00F171B4 /* OutdoorActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366872FF4602B00F171B4 /* OutdoorActivity.swift */; };
-		30A366D42FF4602B00F171B4 /* WindAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366882FF4602B00F171B4 /* WindAlert.swift */; };
-		30A366D52FF4602B00F171B4 /* WindDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366892FF4602B00F171B4 /* WindDay.swift */; };
-		30A366D62FF4602B00F171B4 /* WindRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3668A2FF4602B00F171B4 /* WindRecord.swift */; };
-		30A366D72FF4602B00F171B4 /* WindSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3668B2FF4602B00F171B4 /* WindSpot.swift */; };
-		30A366D82FF4602B00F171B4 /* ActivityRecommendationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3668D2FF4602B00F171B4 /* ActivityRecommendationService.swift */; };
-		30A366D92FF4602B00F171B4 /* BeaufortScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3668E2FF4602B00F171B4 /* BeaufortScale.swift */; };
-		30A366DA2FF4602B00F171B4 /* FeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3668F2FF4602B00F171B4 /* FeedbackService.swift */; };
-		30A366DB2FF4602B00F171B4 /* InsightsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366902FF4602B00F171B4 /* InsightsService.swift */; };
-		30A366DC2FF4602B00F171B4 /* OpenMeteoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366912FF4602B00F171B4 /* OpenMeteoService.swift */; };
-		30A366DD2FF4602B00F171B4 /* SessionExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366922FF4602B00F171B4 /* SessionExportService.swift */; };
-		30A366DE2FF4602B00F171B4 /* UIAppearanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366932FF4602B00F171B4 /* UIAppearanceService.swift */; };
-		30A366DF2FF4602B00F171B4 /* ActivityLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366962FF4602B00F171B4 /* ActivityLogView.swift */; };
-		30A366E02FF4602B00F171B4 /* ActivityLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366972FF4602B00F171B4 /* ActivityLogViewModel.swift */; };
-		30A366E12FF4602B00F171B4 /* ActivityPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366992FF4602B00F171B4 /* ActivityPlannerView.swift */; };
-		30A366E22FF4602B00F171B4 /* ActivityPlannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3669A2FF4602B00F171B4 /* ActivityPlannerViewModel.swift */; };
-		30A366E32FF4602B00F171B4 /* SmartAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3669C2FF4602B00F171B4 /* SmartAlertsView.swift */; };
-		30A366E42FF4602B00F171B4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3669E2FF4602B00F171B4 /* HomeView.swift */; };
-		30A366E52FF4602B00F171B4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A3669F2FF4602B00F171B4 /* HomeViewModel.swift */; };
-		30A366E62FF4602B00F171B4 /* HomeWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366A02FF4602B00F171B4 /* HomeWidgets.swift */; };
-		30A366E72FF4602B00F171B4 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366A22FF4602B00F171B4 /* InsightsView.swift */; };
-		30A366E82FF4602B00F171B4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366A52FF4602B00F171B4 /* OnboardingView.swift */; };
-		30A366E92FF4602B00F171B4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366A72FF4602B00F171B4 /* SettingsView.swift */; };
-		30A366EA2FF4602B00F171B4 /* WindTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366AC2FF4602B00F171B4 /* WindTrackerView.swift */; };
-		30A366EB2FF4602B00F171B4 /* WindTrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366AD2FF4602B00F171B4 /* WindTrackerViewModel.swift */; };
-		30A366EC2FF4602B00F171B4 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366B02FF4602B00F171B4 /* MainTabView.swift */; };
-		30A366ED2FF4602B00F171B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366B42FF4602B00F171B4 /* AppDelegate.swift */; };
-		30A366EE2FF4602B00F171B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366B62FF4602B00F171B4 /* ContentView.swift */; };
-		30A366EF2FF4602B00F171B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366BC2FF4602B00F171B4 /* SceneDelegate.swift */; };
-		30A366F02FF4602B00F171B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A366BD2FF4602B00F171B4 /* ViewController.swift */; };
+		302A06013007A38700811CB5 /* AppCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05A43007A38700811CB5 /* AppCells.swift */; };
+		302A06023007A38700811CB5 /* WindCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05A53007A38700811CB5 /* WindCells.swift */; };
+		302A06033007A38700811CB5 /* DepthStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05A73007A38700811CB5 /* DepthStyle.swift */; };
+		302A06043007A38700811CB5 /* ActivityIllustrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05A93007A38700811CB5 /* ActivityIllustrationView.swift */; };
+		302A06053007A38700811CB5 /* BackgroundPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05AA3007A38700811CB5 /* BackgroundPatternView.swift */; };
+		302A06063007A38700811CB5 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05AB3007A38700811CB5 /* CustomTabBar.swift */; };
+		302A06073007A38700811CB5 /* ShakeEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05AC3007A38700811CB5 /* ShakeEffect.swift */; };
+		302A06083007A38700811CB5 /* SuccessOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05AD3007A38700811CB5 /* SuccessOverlay.swift */; };
+		302A06093007A38700811CB5 /* WindCompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05AE3007A38700811CB5 /* WindCompassView.swift */; };
+		302A060A3007A38700811CB5 /* AppDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05B03007A38700811CB5 /* AppDataStore.swift */; };
+		302A060B3007A38700811CB5 /* AppLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05B23007A38700811CB5 /* AppLink.swift */; };
+		302A060C3007A38700811CB5 /* Notification+DataReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05B43007A38700811CB5 /* Notification+DataReset.swift */; };
+		302A060D3007A38700811CB5 /* ActivitySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05B63007A38700811CB5 /* ActivitySession.swift */; };
+		302A060E3007A38700811CB5 /* AppInsight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05B73007A38700811CB5 /* AppInsight.swift */; };
+		302A060F3007A38700811CB5 /* LiveWindConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05B83007A38700811CB5 /* LiveWindConditions.swift */; };
+		302A06103007A38700811CB5 /* OutdoorActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05B93007A38700811CB5 /* OutdoorActivity.swift */; };
+		302A06113007A38700811CB5 /* WindAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05BA3007A38700811CB5 /* WindAlert.swift */; };
+		302A06123007A38700811CB5 /* WindDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05BB3007A38700811CB5 /* WindDay.swift */; };
+		302A06133007A38700811CB5 /* WindRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05BC3007A38700811CB5 /* WindRecord.swift */; };
+		302A06143007A38700811CB5 /* WindSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05BD3007A38700811CB5 /* WindSpot.swift */; };
+		302A06153007A38700811CB5 /* ActivityRecommendationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05BF3007A38700811CB5 /* ActivityRecommendationService.swift */; };
+		302A06163007A38700811CB5 /* BeaufortScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05C03007A38700811CB5 /* BeaufortScale.swift */; };
+		302A06173007A38700811CB5 /* FeedbackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05C13007A38700811CB5 /* FeedbackService.swift */; };
+		302A06183007A38700811CB5 /* InsightsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05C23007A38700811CB5 /* InsightsService.swift */; };
+		302A06193007A38700811CB5 /* OpenMeteoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05C33007A38700811CB5 /* OpenMeteoService.swift */; };
+		302A061A3007A38700811CB5 /* SessionExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05C43007A38700811CB5 /* SessionExportService.swift */; };
+		302A061B3007A38700811CB5 /* UIAppearanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05C53007A38700811CB5 /* UIAppearanceService.swift */; };
+		302A061C3007A38700811CB5 /* ActivityLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05C83007A38700811CB5 /* ActivityLogView.swift */; };
+		302A061D3007A38700811CB5 /* ActivityLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05C93007A38700811CB5 /* ActivityLogViewModel.swift */; };
+		302A061E3007A38700811CB5 /* ActivityPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05CB3007A38700811CB5 /* ActivityPlannerView.swift */; };
+		302A061F3007A38700811CB5 /* ActivityPlannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05CC3007A38700811CB5 /* ActivityPlannerViewModel.swift */; };
+		302A06203007A38700811CB5 /* SmartAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05CE3007A38700811CB5 /* SmartAlertsView.swift */; };
+		302A06213007A38700811CB5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05D03007A38700811CB5 /* HomeView.swift */; };
+		302A06223007A38700811CB5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05D13007A38700811CB5 /* HomeViewModel.swift */; };
+		302A06233007A38700811CB5 /* HomeWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05D23007A38700811CB5 /* HomeWidgets.swift */; };
+		302A06243007A38700811CB5 /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05D43007A38700811CB5 /* InsightsView.swift */; };
+		302A06253007A38700811CB5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05D73007A38700811CB5 /* OnboardingView.swift */; };
+		302A06263007A38700811CB5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05D93007A38700811CB5 /* SettingsView.swift */; };
+		302A06273007A38700811CB5 /* WindTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05DE3007A38700811CB5 /* WindTrackerView.swift */; };
+		302A06283007A38700811CB5 /* WindTrackerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05DF3007A38700811CB5 /* WindTrackerViewModel.swift */; };
+		302A06293007A38700811CB5 /* AppsFlyerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05E23007A38700811CB5 /* AppsFlyerManager.swift */; };
+		302A062A3007A38700811CB5 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05E33007A38700811CB5 /* ConfigManager.swift */; };
+		302A062B3007A38700811CB5 /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05E43007A38700811CB5 /* LoadingManager.swift */; };
+		302A062C3007A38700811CB5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05E53007A38700811CB5 /* LoadingView.swift */; };
+		302A062D3007A38700811CB5 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05E63007A38700811CB5 /* LoadingViewController.swift */; };
+		302A062E3007A38700811CB5 /* NetworkAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05E73007A38700811CB5 /* NetworkAvailability.swift */; };
+		302A062F3007A38700811CB5 /* NoInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05E83007A38700811CB5 /* NoInternetView.swift */; };
+		302A06303007A38700811CB5 /* NotificationPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05E93007A38700811CB5 /* NotificationPermissionManager.swift */; };
+		302A06313007A38700811CB5 /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05EA3007A38700811CB5 /* NotificationPermissionView.swift */; };
+		302A06323007A38700811CB5 /* NotificationPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05EB3007A38700811CB5 /* NotificationPermissionViewController.swift */; };
+		302A06333007A38700811CB5 /* PushNotificationURLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05EC3007A38700811CB5 /* PushNotificationURLRouter.swift */; };
+		302A06343007A38700811CB5 /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05ED3007A38700811CB5 /* UserAgentBuilder.swift */; };
+		302A06353007A38700811CB5 /* WebviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05EE3007A38700811CB5 /* WebviewVC.swift */; };
+		302A06363007A38700811CB5 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05F03007A38700811CB5 /* MainTabView.swift */; };
+		302A06373007A38700811CB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05F53007A38700811CB5 /* AppDelegate.swift */; };
+		302A06383007A38700811CB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05F73007A38700811CB5 /* ContentView.swift */; };
+		302A06393007A38700811CB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05FE3007A38700811CB5 /* SceneDelegate.swift */; };
+		302A063A3007A38700811CB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A05FF3007A38700811CB5 /* ViewController.swift */; };
+		302A063B3007A38700811CB5 /* privacy_policy.md in Resources */ = {isa = PBXBuildFile; fileRef = 302A05F23007A38700811CB5 /* privacy_policy.md */; };
+		302A063C3007A38700811CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302A05F63007A38700811CB5 /* Assets.xcassets */; };
+		302A063D3007A38700811CB5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 302A05F83007A38700811CB5 /* GoogleService-Info.plist */; };
+		302A063F3007A38700811CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302A05FB3007A38700811CB5 /* LaunchScreen.storyboard */; };
+		302A06403007A38700811CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302A05FD3007A38700811CB5 /* Main.storyboard */; };
+		A23600010000000000000001 /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A23600220000000000000022 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A23600020000000000000002 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A23600800000000000000080 /* FirebaseMessaging */; };
+		A23600030000000000000003 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = A23600810000000000000081 /* AppsFlyerLib-Static */; };
+		A23600040000000000000004 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A23600820000000000000082 /* FirebaseMessaging */; };
+		A23600050000000000000005 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23600200000000000000020 /* NotificationService.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A23600110000000000000011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A3648A2FF44D3400F171B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23600500000000000000050;
+			remoteInfo = NotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A23600100000000000000010 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A23600010000000000000001 /* NotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		302A05A43007A38700811CB5 /* AppCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCells.swift; sourceTree = "<group>"; };
+		302A05A53007A38700811CB5 /* WindCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindCells.swift; sourceTree = "<group>"; };
+		302A05A73007A38700811CB5 /* DepthStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthStyle.swift; sourceTree = "<group>"; };
+		302A05A93007A38700811CB5 /* ActivityIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIllustrationView.swift; sourceTree = "<group>"; };
+		302A05AA3007A38700811CB5 /* BackgroundPatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundPatternView.swift; sourceTree = "<group>"; };
+		302A05AB3007A38700811CB5 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		302A05AC3007A38700811CB5 /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
+		302A05AD3007A38700811CB5 /* SuccessOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessOverlay.swift; sourceTree = "<group>"; };
+		302A05AE3007A38700811CB5 /* WindCompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindCompassView.swift; sourceTree = "<group>"; };
+		302A05B03007A38700811CB5 /* AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
+		302A05B23007A38700811CB5 /* AppLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLink.swift; sourceTree = "<group>"; };
+		302A05B43007A38700811CB5 /* Notification+DataReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+DataReset.swift"; sourceTree = "<group>"; };
+		302A05B63007A38700811CB5 /* ActivitySession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySession.swift; sourceTree = "<group>"; };
+		302A05B73007A38700811CB5 /* AppInsight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInsight.swift; sourceTree = "<group>"; };
+		302A05B83007A38700811CB5 /* LiveWindConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveWindConditions.swift; sourceTree = "<group>"; };
+		302A05B93007A38700811CB5 /* OutdoorActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorActivity.swift; sourceTree = "<group>"; };
+		302A05BA3007A38700811CB5 /* WindAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindAlert.swift; sourceTree = "<group>"; };
+		302A05BB3007A38700811CB5 /* WindDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindDay.swift; sourceTree = "<group>"; };
+		302A05BC3007A38700811CB5 /* WindRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindRecord.swift; sourceTree = "<group>"; };
+		302A05BD3007A38700811CB5 /* WindSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindSpot.swift; sourceTree = "<group>"; };
+		302A05BF3007A38700811CB5 /* ActivityRecommendationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRecommendationService.swift; sourceTree = "<group>"; };
+		302A05C03007A38700811CB5 /* BeaufortScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaufortScale.swift; sourceTree = "<group>"; };
+		302A05C13007A38700811CB5 /* FeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackService.swift; sourceTree = "<group>"; };
+		302A05C23007A38700811CB5 /* InsightsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsService.swift; sourceTree = "<group>"; };
+		302A05C33007A38700811CB5 /* OpenMeteoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMeteoService.swift; sourceTree = "<group>"; };
+		302A05C43007A38700811CB5 /* SessionExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionExportService.swift; sourceTree = "<group>"; };
+		302A05C53007A38700811CB5 /* UIAppearanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAppearanceService.swift; sourceTree = "<group>"; };
+		302A05C83007A38700811CB5 /* ActivityLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogView.swift; sourceTree = "<group>"; };
+		302A05C93007A38700811CB5 /* ActivityLogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogViewModel.swift; sourceTree = "<group>"; };
+		302A05CB3007A38700811CB5 /* ActivityPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPlannerView.swift; sourceTree = "<group>"; };
+		302A05CC3007A38700811CB5 /* ActivityPlannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPlannerViewModel.swift; sourceTree = "<group>"; };
+		302A05CE3007A38700811CB5 /* SmartAlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartAlertsView.swift; sourceTree = "<group>"; };
+		302A05D03007A38700811CB5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		302A05D13007A38700811CB5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		302A05D23007A38700811CB5 /* HomeWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgets.swift; sourceTree = "<group>"; };
+		302A05D43007A38700811CB5 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		302A05D73007A38700811CB5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		302A05D93007A38700811CB5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		302A05DE3007A38700811CB5 /* WindTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindTrackerView.swift; sourceTree = "<group>"; };
+		302A05DF3007A38700811CB5 /* WindTrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindTrackerViewModel.swift; sourceTree = "<group>"; };
+		302A05E23007A38700811CB5 /* AppsFlyerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerManager.swift; sourceTree = "<group>"; };
+		302A05E33007A38700811CB5 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		302A05E43007A38700811CB5 /* LoadingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
+		302A05E53007A38700811CB5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		302A05E63007A38700811CB5 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		302A05E73007A38700811CB5 /* NetworkAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAvailability.swift; sourceTree = "<group>"; };
+		302A05E83007A38700811CB5 /* NoInternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetView.swift; sourceTree = "<group>"; };
+		302A05E93007A38700811CB5 /* NotificationPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionManager.swift; sourceTree = "<group>"; };
+		302A05EA3007A38700811CB5 /* NotificationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
+		302A05EB3007A38700811CB5 /* NotificationPermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionViewController.swift; sourceTree = "<group>"; };
+		302A05EC3007A38700811CB5 /* PushNotificationURLRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationURLRouter.swift; sourceTree = "<group>"; };
+		302A05ED3007A38700811CB5 /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		302A05EE3007A38700811CB5 /* WebviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewVC.swift; sourceTree = "<group>"; };
+		302A05F03007A38700811CB5 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		302A05F23007A38700811CB5 /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
+		302A05F43007A38700811CB5 /* 236MarivelleTheory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 236MarivelleTheory.entitlements; sourceTree = "<group>"; };
+		302A05F53007A38700811CB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		302A05F63007A38700811CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		302A05F73007A38700811CB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		302A05F83007A38700811CB5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		302A05F93007A38700811CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302A05FA3007A38700811CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		302A05FC3007A38700811CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		302A05FE3007A38700811CB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		302A05FF3007A38700811CB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30A364922FF44D3400F171B4 /* 236MarivelleTheory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 236MarivelleTheory.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		30A366722FF4602B00F171B4 /* AppCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCells.swift; sourceTree = "<group>"; };
-		30A366732FF4602B00F171B4 /* WindCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindCells.swift; sourceTree = "<group>"; };
-		30A366752FF4602B00F171B4 /* DepthStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthStyle.swift; sourceTree = "<group>"; };
-		30A366772FF4602B00F171B4 /* ActivityIllustrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIllustrationView.swift; sourceTree = "<group>"; };
-		30A366782FF4602B00F171B4 /* BackgroundPatternView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundPatternView.swift; sourceTree = "<group>"; };
-		30A366792FF4602B00F171B4 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
-		30A3667A2FF4602B00F171B4 /* ShakeEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeEffect.swift; sourceTree = "<group>"; };
-		30A3667B2FF4602B00F171B4 /* SuccessOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessOverlay.swift; sourceTree = "<group>"; };
-		30A3667C2FF4602B00F171B4 /* WindCompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindCompassView.swift; sourceTree = "<group>"; };
-		30A3667E2FF4602B00F171B4 /* AppDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataStore.swift; sourceTree = "<group>"; };
-		30A366802FF4602B00F171B4 /* AppLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLink.swift; sourceTree = "<group>"; };
-		30A366822FF4602B00F171B4 /* Notification+DataReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+DataReset.swift"; sourceTree = "<group>"; };
-		30A366842FF4602B00F171B4 /* ActivitySession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySession.swift; sourceTree = "<group>"; };
-		30A366852FF4602B00F171B4 /* AppInsight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInsight.swift; sourceTree = "<group>"; };
-		30A366862FF4602B00F171B4 /* LiveWindConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveWindConditions.swift; sourceTree = "<group>"; };
-		30A366872FF4602B00F171B4 /* OutdoorActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutdoorActivity.swift; sourceTree = "<group>"; };
-		30A366882FF4602B00F171B4 /* WindAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindAlert.swift; sourceTree = "<group>"; };
-		30A366892FF4602B00F171B4 /* WindDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindDay.swift; sourceTree = "<group>"; };
-		30A3668A2FF4602B00F171B4 /* WindRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindRecord.swift; sourceTree = "<group>"; };
-		30A3668B2FF4602B00F171B4 /* WindSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindSpot.swift; sourceTree = "<group>"; };
-		30A3668D2FF4602B00F171B4 /* ActivityRecommendationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRecommendationService.swift; sourceTree = "<group>"; };
-		30A3668E2FF4602B00F171B4 /* BeaufortScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaufortScale.swift; sourceTree = "<group>"; };
-		30A3668F2FF4602B00F171B4 /* FeedbackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackService.swift; sourceTree = "<group>"; };
-		30A366902FF4602B00F171B4 /* InsightsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsService.swift; sourceTree = "<group>"; };
-		30A366912FF4602B00F171B4 /* OpenMeteoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenMeteoService.swift; sourceTree = "<group>"; };
-		30A366922FF4602B00F171B4 /* SessionExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionExportService.swift; sourceTree = "<group>"; };
-		30A366932FF4602B00F171B4 /* UIAppearanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAppearanceService.swift; sourceTree = "<group>"; };
-		30A366962FF4602B00F171B4 /* ActivityLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogView.swift; sourceTree = "<group>"; };
-		30A366972FF4602B00F171B4 /* ActivityLogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityLogViewModel.swift; sourceTree = "<group>"; };
-		30A366992FF4602B00F171B4 /* ActivityPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPlannerView.swift; sourceTree = "<group>"; };
-		30A3669A2FF4602B00F171B4 /* ActivityPlannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityPlannerViewModel.swift; sourceTree = "<group>"; };
-		30A3669C2FF4602B00F171B4 /* SmartAlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartAlertsView.swift; sourceTree = "<group>"; };
-		30A3669E2FF4602B00F171B4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		30A3669F2FF4602B00F171B4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
-		30A366A02FF4602B00F171B4 /* HomeWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWidgets.swift; sourceTree = "<group>"; };
-		30A366A22FF4602B00F171B4 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
-		30A366A52FF4602B00F171B4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		30A366A72FF4602B00F171B4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		30A366AC2FF4602B00F171B4 /* WindTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindTrackerView.swift; sourceTree = "<group>"; };
-		30A366AD2FF4602B00F171B4 /* WindTrackerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindTrackerViewModel.swift; sourceTree = "<group>"; };
-		30A366B02FF4602B00F171B4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		30A366B22FF4602B00F171B4 /* privacy_policy.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = privacy_policy.md; sourceTree = "<group>"; };
-		30A366B42FF4602B00F171B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30A366B52FF4602B00F171B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		30A366B62FF4602B00F171B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		30A366B72FF4602B00F171B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30A366B82FF4602B00F171B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		30A366BA2FF4602B00F171B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		30A366BC2FF4602B00F171B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30A366BD2FF4602B00F171B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BEBEBEF0CE161F18328B943 /* Pods-236MarivelleTheory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-236MarivelleTheory.release.xcconfig"; path = "Target Support Files/Pods-236MarivelleTheory/Pods-236MarivelleTheory.release.xcconfig"; sourceTree = "<group>"; };
+		A23600200000000000000020 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		A23600210000000000000021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23600220000000000000022 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8A48922F2D965BF0C0D1673 /* Pods_236MarivelleTheory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_236MarivelleTheory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCDC38CA5C1BD8861177C07 /* Pods-236MarivelleTheory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-236MarivelleTheory.debug.xcconfig"; path = "Target Support Files/Pods-236MarivelleTheory/Pods-236MarivelleTheory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,16 +181,299 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23600020000000000000002 /* FirebaseMessaging in Frameworks */,
+				A23600030000000000000003 /* AppsFlyerLib-Static in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23600300000000000000030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23600040000000000000004 /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		302A05A63007A38700811CB5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				302A05A43007A38700811CB5 /* AppCells.swift */,
+				302A05A53007A38700811CB5 /* WindCells.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		302A05A83007A38700811CB5 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				302A05A73007A38700811CB5 /* DepthStyle.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		302A05AF3007A38700811CB5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				302A05A63007A38700811CB5 /* Cells */,
+				302A05A83007A38700811CB5 /* Design */,
+				302A05A93007A38700811CB5 /* ActivityIllustrationView.swift */,
+				302A05AA3007A38700811CB5 /* BackgroundPatternView.swift */,
+				302A05AB3007A38700811CB5 /* CustomTabBar.swift */,
+				302A05AC3007A38700811CB5 /* ShakeEffect.swift */,
+				302A05AD3007A38700811CB5 /* SuccessOverlay.swift */,
+				302A05AE3007A38700811CB5 /* WindCompassView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		302A05B13007A38700811CB5 /* AppStorage */ = {
+			isa = PBXGroup;
+			children = (
+				302A05B03007A38700811CB5 /* AppDataStore.swift */,
+			);
+			path = AppStorage;
+			sourceTree = "<group>";
+		};
+		302A05B33007A38700811CB5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				302A05B23007A38700811CB5 /* AppLink.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		302A05B53007A38700811CB5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				302A05B43007A38700811CB5 /* Notification+DataReset.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		302A05BE3007A38700811CB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				302A05B63007A38700811CB5 /* ActivitySession.swift */,
+				302A05B73007A38700811CB5 /* AppInsight.swift */,
+				302A05B83007A38700811CB5 /* LiveWindConditions.swift */,
+				302A05B93007A38700811CB5 /* OutdoorActivity.swift */,
+				302A05BA3007A38700811CB5 /* WindAlert.swift */,
+				302A05BB3007A38700811CB5 /* WindDay.swift */,
+				302A05BC3007A38700811CB5 /* WindRecord.swift */,
+				302A05BD3007A38700811CB5 /* WindSpot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		302A05C63007A38700811CB5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				302A05BF3007A38700811CB5 /* ActivityRecommendationService.swift */,
+				302A05C03007A38700811CB5 /* BeaufortScale.swift */,
+				302A05C13007A38700811CB5 /* FeedbackService.swift */,
+				302A05C23007A38700811CB5 /* InsightsService.swift */,
+				302A05C33007A38700811CB5 /* OpenMeteoService.swift */,
+				302A05C43007A38700811CB5 /* SessionExportService.swift */,
+				302A05C53007A38700811CB5 /* UIAppearanceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		302A05C73007A38700811CB5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				302A05B13007A38700811CB5 /* AppStorage */,
+				302A05B33007A38700811CB5 /* Constants */,
+				302A05B53007A38700811CB5 /* Extensions */,
+				302A05BE3007A38700811CB5 /* Models */,
+				302A05C63007A38700811CB5 /* Services */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		302A05CA3007A38700811CB5 /* ActivityLog */ = {
+			isa = PBXGroup;
+			children = (
+				302A05C83007A38700811CB5 /* ActivityLogView.swift */,
+				302A05C93007A38700811CB5 /* ActivityLogViewModel.swift */,
+			);
+			path = ActivityLog;
+			sourceTree = "<group>";
+		};
+		302A05CD3007A38700811CB5 /* ActivityPlanner */ = {
+			isa = PBXGroup;
+			children = (
+				302A05CB3007A38700811CB5 /* ActivityPlannerView.swift */,
+				302A05CC3007A38700811CB5 /* ActivityPlannerViewModel.swift */,
+			);
+			path = ActivityPlanner;
+			sourceTree = "<group>";
+		};
+		302A05CF3007A38700811CB5 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				302A05CE3007A38700811CB5 /* SmartAlertsView.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		302A05D33007A38700811CB5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				302A05D03007A38700811CB5 /* HomeView.swift */,
+				302A05D13007A38700811CB5 /* HomeViewModel.swift */,
+				302A05D23007A38700811CB5 /* HomeWidgets.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		302A05D53007A38700811CB5 /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				302A05D43007A38700811CB5 /* InsightsView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+		302A05D63007A38700811CB5 /* Manage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manage;
+			sourceTree = "<group>";
+		};
+		302A05D83007A38700811CB5 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				302A05D73007A38700811CB5 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		302A05DA3007A38700811CB5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				302A05D93007A38700811CB5 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		302A05DB3007A38700811CB5 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		302A05DC3007A38700811CB5 /* WindAlerts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WindAlerts;
+			sourceTree = "<group>";
+		};
+		302A05DD3007A38700811CB5 /* WindPatterns */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WindPatterns;
+			sourceTree = "<group>";
+		};
+		302A05E03007A38700811CB5 /* WindTracker */ = {
+			isa = PBXGroup;
+			children = (
+				302A05DE3007A38700811CB5 /* WindTrackerView.swift */,
+				302A05DF3007A38700811CB5 /* WindTrackerViewModel.swift */,
+			);
+			path = WindTracker;
+			sourceTree = "<group>";
+		};
+		302A05E13007A38700811CB5 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				302A05CA3007A38700811CB5 /* ActivityLog */,
+				302A05CD3007A38700811CB5 /* ActivityPlanner */,
+				302A05CF3007A38700811CB5 /* Alerts */,
+				302A05D33007A38700811CB5 /* Home */,
+				302A05D53007A38700811CB5 /* Insights */,
+				302A05D63007A38700811CB5 /* Manage */,
+				302A05D83007A38700811CB5 /* Onboarding */,
+				302A05DA3007A38700811CB5 /* Settings */,
+				302A05DB3007A38700811CB5 /* Stats */,
+				302A05DC3007A38700811CB5 /* WindAlerts */,
+				302A05DD3007A38700811CB5 /* WindPatterns */,
+				302A05E03007A38700811CB5 /* WindTracker */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		302A05EF3007A38700811CB5 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				302A05E23007A38700811CB5 /* AppsFlyerManager.swift */,
+				302A05E33007A38700811CB5 /* ConfigManager.swift */,
+				302A05E43007A38700811CB5 /* LoadingManager.swift */,
+				302A05E53007A38700811CB5 /* LoadingView.swift */,
+				302A05E63007A38700811CB5 /* LoadingViewController.swift */,
+				302A05E73007A38700811CB5 /* NetworkAvailability.swift */,
+				302A05E83007A38700811CB5 /* NoInternetView.swift */,
+				302A05E93007A38700811CB5 /* NotificationPermissionManager.swift */,
+				302A05EA3007A38700811CB5 /* NotificationPermissionView.swift */,
+				302A05EB3007A38700811CB5 /* NotificationPermissionViewController.swift */,
+				302A05EC3007A38700811CB5 /* PushNotificationURLRouter.swift */,
+				302A05ED3007A38700811CB5 /* UserAgentBuilder.swift */,
+				302A05EE3007A38700811CB5 /* WebviewVC.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		302A05F13007A38700811CB5 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				302A05F03007A38700811CB5 /* MainTabView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		302A05F33007A38700811CB5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				302A05F23007A38700811CB5 /* privacy_policy.md */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		302A06003007A38700811CB5 /* 236MarivelleTheory */ = {
+			isa = PBXGroup;
+			children = (
+				302A05AF3007A38700811CB5 /* Components */,
+				302A05C73007A38700811CB5 /* Core */,
+				302A05E13007A38700811CB5 /* Features */,
+				302A05EF3007A38700811CB5 /* Loading */,
+				302A05F13007A38700811CB5 /* Navigation */,
+				302A05F33007A38700811CB5 /* Resources */,
+				302A05F43007A38700811CB5 /* 236MarivelleTheory.entitlements */,
+				302A05F53007A38700811CB5 /* AppDelegate.swift */,
+				302A05F63007A38700811CB5 /* Assets.xcassets */,
+				302A05F73007A38700811CB5 /* ContentView.swift */,
+				302A05F83007A38700811CB5 /* GoogleService-Info.plist */,
+				302A05F93007A38700811CB5 /* Info.plist */,
+				302A05FB3007A38700811CB5 /* LaunchScreen.storyboard */,
+				302A05FD3007A38700811CB5 /* Main.storyboard */,
+				302A05FE3007A38700811CB5 /* SceneDelegate.swift */,
+				302A05FF3007A38700811CB5 /* ViewController.swift */,
+			);
+			path = 236MarivelleTheory;
+			sourceTree = "<group>";
+		};
 		30A364892FF44D3400F171B4 = {
 			isa = PBXGroup;
 			children = (
-				30A366BE2FF4602B00F171B4 /* 236MarivelleTheory */,
+				302A06003007A38700811CB5 /* 236MarivelleTheory */,
+				A23600400000000000000040 /* NotificationServiceExtension */,
 				30A364932FF44D3400F171B4 /* Products */,
 				CAC07D70A4CD01A9DFC5F01C /* Pods */,
 				5E838EA316DD73647FCABF85 /* Frameworks */,
@@ -140,257 +484,9 @@
 			isa = PBXGroup;
 			children = (
 				30A364922FF44D3400F171B4 /* 236MarivelleTheory.app */,
+				A23600220000000000000022 /* NotificationServiceExtension.appex */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		30A366742FF4602B00F171B4 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				30A366722FF4602B00F171B4 /* AppCells.swift */,
-				30A366732FF4602B00F171B4 /* WindCells.swift */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		30A366762FF4602B00F171B4 /* Design */ = {
-			isa = PBXGroup;
-			children = (
-				30A366752FF4602B00F171B4 /* DepthStyle.swift */,
-			);
-			path = Design;
-			sourceTree = "<group>";
-		};
-		30A3667D2FF4602B00F171B4 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				30A366742FF4602B00F171B4 /* Cells */,
-				30A366762FF4602B00F171B4 /* Design */,
-				30A366772FF4602B00F171B4 /* ActivityIllustrationView.swift */,
-				30A366782FF4602B00F171B4 /* BackgroundPatternView.swift */,
-				30A366792FF4602B00F171B4 /* CustomTabBar.swift */,
-				30A3667A2FF4602B00F171B4 /* ShakeEffect.swift */,
-				30A3667B2FF4602B00F171B4 /* SuccessOverlay.swift */,
-				30A3667C2FF4602B00F171B4 /* WindCompassView.swift */,
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
-		30A3667F2FF4602B00F171B4 /* AppStorage */ = {
-			isa = PBXGroup;
-			children = (
-				30A3667E2FF4602B00F171B4 /* AppDataStore.swift */,
-			);
-			path = AppStorage;
-			sourceTree = "<group>";
-		};
-		30A366812FF4602B00F171B4 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				30A366802FF4602B00F171B4 /* AppLink.swift */,
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
-		30A366832FF4602B00F171B4 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				30A366822FF4602B00F171B4 /* Notification+DataReset.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		30A3668C2FF4602B00F171B4 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				30A366842FF4602B00F171B4 /* ActivitySession.swift */,
-				30A366852FF4602B00F171B4 /* AppInsight.swift */,
-				30A366862FF4602B00F171B4 /* LiveWindConditions.swift */,
-				30A366872FF4602B00F171B4 /* OutdoorActivity.swift */,
-				30A366882FF4602B00F171B4 /* WindAlert.swift */,
-				30A366892FF4602B00F171B4 /* WindDay.swift */,
-				30A3668A2FF4602B00F171B4 /* WindRecord.swift */,
-				30A3668B2FF4602B00F171B4 /* WindSpot.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		30A366942FF4602B00F171B4 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				30A3668D2FF4602B00F171B4 /* ActivityRecommendationService.swift */,
-				30A3668E2FF4602B00F171B4 /* BeaufortScale.swift */,
-				30A3668F2FF4602B00F171B4 /* FeedbackService.swift */,
-				30A366902FF4602B00F171B4 /* InsightsService.swift */,
-				30A366912FF4602B00F171B4 /* OpenMeteoService.swift */,
-				30A366922FF4602B00F171B4 /* SessionExportService.swift */,
-				30A366932FF4602B00F171B4 /* UIAppearanceService.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		30A366952FF4602B00F171B4 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				30A3667F2FF4602B00F171B4 /* AppStorage */,
-				30A366812FF4602B00F171B4 /* Constants */,
-				30A366832FF4602B00F171B4 /* Extensions */,
-				30A3668C2FF4602B00F171B4 /* Models */,
-				30A366942FF4602B00F171B4 /* Services */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		30A366982FF4602B00F171B4 /* ActivityLog */ = {
-			isa = PBXGroup;
-			children = (
-				30A366962FF4602B00F171B4 /* ActivityLogView.swift */,
-				30A366972FF4602B00F171B4 /* ActivityLogViewModel.swift */,
-			);
-			path = ActivityLog;
-			sourceTree = "<group>";
-		};
-		30A3669B2FF4602B00F171B4 /* ActivityPlanner */ = {
-			isa = PBXGroup;
-			children = (
-				30A366992FF4602B00F171B4 /* ActivityPlannerView.swift */,
-				30A3669A2FF4602B00F171B4 /* ActivityPlannerViewModel.swift */,
-			);
-			path = ActivityPlanner;
-			sourceTree = "<group>";
-		};
-		30A3669D2FF4602B00F171B4 /* Alerts */ = {
-			isa = PBXGroup;
-			children = (
-				30A3669C2FF4602B00F171B4 /* SmartAlertsView.swift */,
-			);
-			path = Alerts;
-			sourceTree = "<group>";
-		};
-		30A366A12FF4602B00F171B4 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				30A3669E2FF4602B00F171B4 /* HomeView.swift */,
-				30A3669F2FF4602B00F171B4 /* HomeViewModel.swift */,
-				30A366A02FF4602B00F171B4 /* HomeWidgets.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		30A366A32FF4602B00F171B4 /* Insights */ = {
-			isa = PBXGroup;
-			children = (
-				30A366A22FF4602B00F171B4 /* InsightsView.swift */,
-			);
-			path = Insights;
-			sourceTree = "<group>";
-		};
-		30A366A42FF4602B00F171B4 /* Manage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manage;
-			sourceTree = "<group>";
-		};
-		30A366A62FF4602B00F171B4 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				30A366A52FF4602B00F171B4 /* OnboardingView.swift */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		30A366A82FF4602B00F171B4 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				30A366A72FF4602B00F171B4 /* SettingsView.swift */,
-			);
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		30A366A92FF4602B00F171B4 /* Stats */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Stats;
-			sourceTree = "<group>";
-		};
-		30A366AA2FF4602B00F171B4 /* WindAlerts */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WindAlerts;
-			sourceTree = "<group>";
-		};
-		30A366AB2FF4602B00F171B4 /* WindPatterns */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WindPatterns;
-			sourceTree = "<group>";
-		};
-		30A366AE2FF4602B00F171B4 /* WindTracker */ = {
-			isa = PBXGroup;
-			children = (
-				30A366AC2FF4602B00F171B4 /* WindTrackerView.swift */,
-				30A366AD2FF4602B00F171B4 /* WindTrackerViewModel.swift */,
-			);
-			path = WindTracker;
-			sourceTree = "<group>";
-		};
-		30A366AF2FF4602B00F171B4 /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				30A366982FF4602B00F171B4 /* ActivityLog */,
-				30A3669B2FF4602B00F171B4 /* ActivityPlanner */,
-				30A3669D2FF4602B00F171B4 /* Alerts */,
-				30A366A12FF4602B00F171B4 /* Home */,
-				30A366A32FF4602B00F171B4 /* Insights */,
-				30A366A42FF4602B00F171B4 /* Manage */,
-				30A366A62FF4602B00F171B4 /* Onboarding */,
-				30A366A82FF4602B00F171B4 /* Settings */,
-				30A366A92FF4602B00F171B4 /* Stats */,
-				30A366AA2FF4602B00F171B4 /* WindAlerts */,
-				30A366AB2FF4602B00F171B4 /* WindPatterns */,
-				30A366AE2FF4602B00F171B4 /* WindTracker */,
-			);
-			path = Features;
-			sourceTree = "<group>";
-		};
-		30A366B12FF4602B00F171B4 /* Navigation */ = {
-			isa = PBXGroup;
-			children = (
-				30A366B02FF4602B00F171B4 /* MainTabView.swift */,
-			);
-			path = Navigation;
-			sourceTree = "<group>";
-		};
-		30A366B32FF4602B00F171B4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				30A366B22FF4602B00F171B4 /* privacy_policy.md */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		30A366BE2FF4602B00F171B4 /* 236MarivelleTheory */ = {
-			isa = PBXGroup;
-			children = (
-				30A3667D2FF4602B00F171B4 /* Components */,
-				30A366952FF4602B00F171B4 /* Core */,
-				30A366AF2FF4602B00F171B4 /* Features */,
-				30A366B12FF4602B00F171B4 /* Navigation */,
-				30A366B32FF4602B00F171B4 /* Resources */,
-				30A366B42FF4602B00F171B4 /* AppDelegate.swift */,
-				30A366B52FF4602B00F171B4 /* Assets.xcassets */,
-				30A366B62FF4602B00F171B4 /* ContentView.swift */,
-				30A366B72FF4602B00F171B4 /* Info.plist */,
-				30A366B92FF4602B00F171B4 /* LaunchScreen.storyboard */,
-				30A366BB2FF4602B00F171B4 /* Main.storyboard */,
-				30A366BC2FF4602B00F171B4 /* SceneDelegate.swift */,
-				30A366BD2FF4602B00F171B4 /* ViewController.swift */,
-			);
-			path = 236MarivelleTheory;
 			sourceTree = "<group>";
 		};
 		5E838EA316DD73647FCABF85 /* Frameworks */ = {
@@ -399,6 +495,15 @@
 				C8A48922F2D965BF0C0D1673 /* Pods_236MarivelleTheory.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A23600400000000000000040 /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A23600210000000000000021 /* Info.plist */,
+				A23600200000000000000020 /* NotificationService.swift */,
+			);
+			path = NotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 		CAC07D70A4CD01A9DFC5F01C /* Pods */ = {
@@ -421,15 +526,41 @@
 				30A3648E2FF44D3400F171B4 /* Sources */,
 				30A3648F2FF44D3400F171B4 /* Frameworks */,
 				30A364902FF44D3400F171B4 /* Resources */,
+				A23600100000000000000010 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23600120000000000000012 /* PBXTargetDependency */,
+			);
+			name = 236MarivelleTheory;
+			packageProductDependencies = (
+				A23600800000000000000080 /* FirebaseMessaging */,
+				A23600810000000000000081 /* AppsFlyerLib-Static */,
+			);
+			productName = 236MarivelleTheory;
+			productReference = 30A364922FF44D3400F171B4 /* 236MarivelleTheory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A23600500000000000000050 /* NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23600620000000000000062 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
+			buildPhases = (
+				A23600310000000000000031 /* Sources */,
+				A23600300000000000000030 /* Frameworks */,
+				A23600320000000000000032 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = 236MarivelleTheory;
-			productName = 236MarivelleTheory;
-			productReference = 30A364922FF44D3400F171B4 /* 236MarivelleTheory.app */;
-			productType = "com.apple.product-type.application";
+			name = NotificationServiceExtension;
+			packageProductDependencies = (
+				A23600820000000000000082 /* FirebaseMessaging */,
+			);
+			productName = NotificationServiceExtension;
+			productReference = A23600220000000000000022 /* NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -444,6 +575,9 @@
 					30A364912FF44D3400F171B4 = {
 						CreatedOnToolsVersion = 26.6;
 					};
+					A23600500000000000000050 = {
+						CreatedOnToolsVersion = 26.6;
+					};
 				};
 			};
 			buildConfigurationList = 30A3648D2FF44D3400F171B4 /* Build configuration list for PBXProject "236MarivelleTheory" */;
@@ -455,11 +589,16 @@
 				Base,
 			);
 			mainGroup = 30A364892FF44D3400F171B4;
+			packageReferences = (
+				A23600700000000000000070 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				A23600710000000000000071 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
 			productRefGroup = 30A364932FF44D3400F171B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				30A364912FF44D3400F171B4 /* 236MarivelleTheory */,
+				A23600500000000000000050 /* NotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -469,10 +608,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A366BF2FF4602B00F171B4 /* privacy_policy.md in Resources */,
-				30A366C02FF4602B00F171B4 /* Assets.xcassets in Resources */,
-				30A366C22FF4602B00F171B4 /* LaunchScreen.storyboard in Resources */,
-				30A366C32FF4602B00F171B4 /* Main.storyboard in Resources */,
+				302A063B3007A38700811CB5 /* privacy_policy.md in Resources */,
+				302A063C3007A38700811CB5 /* Assets.xcassets in Resources */,
+				302A063D3007A38700811CB5 /* GoogleService-Info.plist in Resources */,
+				302A063F3007A38700811CB5 /* LaunchScreen.storyboard in Resources */,
+				302A06403007A38700811CB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23600320000000000000032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,69 +655,98 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A366C42FF4602B00F171B4 /* AppCells.swift in Sources */,
-				30A366C52FF4602B00F171B4 /* WindCells.swift in Sources */,
-				30A366C62FF4602B00F171B4 /* DepthStyle.swift in Sources */,
-				30A366C72FF4602B00F171B4 /* ActivityIllustrationView.swift in Sources */,
-				30A366C82FF4602B00F171B4 /* BackgroundPatternView.swift in Sources */,
-				30A366C92FF4602B00F171B4 /* CustomTabBar.swift in Sources */,
-				30A366CA2FF4602B00F171B4 /* ShakeEffect.swift in Sources */,
-				30A366CB2FF4602B00F171B4 /* SuccessOverlay.swift in Sources */,
-				30A366CC2FF4602B00F171B4 /* WindCompassView.swift in Sources */,
-				30A366CD2FF4602B00F171B4 /* AppDataStore.swift in Sources */,
-				30A366CE2FF4602B00F171B4 /* AppLink.swift in Sources */,
-				30A366CF2FF4602B00F171B4 /* Notification+DataReset.swift in Sources */,
-				30A366D02FF4602B00F171B4 /* ActivitySession.swift in Sources */,
-				30A366D12FF4602B00F171B4 /* AppInsight.swift in Sources */,
-				30A366D22FF4602B00F171B4 /* LiveWindConditions.swift in Sources */,
-				30A366D32FF4602B00F171B4 /* OutdoorActivity.swift in Sources */,
-				30A366D42FF4602B00F171B4 /* WindAlert.swift in Sources */,
-				30A366D52FF4602B00F171B4 /* WindDay.swift in Sources */,
-				30A366D62FF4602B00F171B4 /* WindRecord.swift in Sources */,
-				30A366D72FF4602B00F171B4 /* WindSpot.swift in Sources */,
-				30A366D82FF4602B00F171B4 /* ActivityRecommendationService.swift in Sources */,
-				30A366D92FF4602B00F171B4 /* BeaufortScale.swift in Sources */,
-				30A366DA2FF4602B00F171B4 /* FeedbackService.swift in Sources */,
-				30A366DB2FF4602B00F171B4 /* InsightsService.swift in Sources */,
-				30A366DC2FF4602B00F171B4 /* OpenMeteoService.swift in Sources */,
-				30A366DD2FF4602B00F171B4 /* SessionExportService.swift in Sources */,
-				30A366DE2FF4602B00F171B4 /* UIAppearanceService.swift in Sources */,
-				30A366DF2FF4602B00F171B4 /* ActivityLogView.swift in Sources */,
-				30A366E02FF4602B00F171B4 /* ActivityLogViewModel.swift in Sources */,
-				30A366E12FF4602B00F171B4 /* ActivityPlannerView.swift in Sources */,
-				30A366E22FF4602B00F171B4 /* ActivityPlannerViewModel.swift in Sources */,
-				30A366E32FF4602B00F171B4 /* SmartAlertsView.swift in Sources */,
-				30A366E42FF4602B00F171B4 /* HomeView.swift in Sources */,
-				30A366E52FF4602B00F171B4 /* HomeViewModel.swift in Sources */,
-				30A366E62FF4602B00F171B4 /* HomeWidgets.swift in Sources */,
-				30A366E72FF4602B00F171B4 /* InsightsView.swift in Sources */,
-				30A366E82FF4602B00F171B4 /* OnboardingView.swift in Sources */,
-				30A366E92FF4602B00F171B4 /* SettingsView.swift in Sources */,
-				30A366EA2FF4602B00F171B4 /* WindTrackerView.swift in Sources */,
-				30A366EB2FF4602B00F171B4 /* WindTrackerViewModel.swift in Sources */,
-				30A366EC2FF4602B00F171B4 /* MainTabView.swift in Sources */,
-				30A366ED2FF4602B00F171B4 /* AppDelegate.swift in Sources */,
-				30A366EE2FF4602B00F171B4 /* ContentView.swift in Sources */,
-				30A366EF2FF4602B00F171B4 /* SceneDelegate.swift in Sources */,
-				30A366F02FF4602B00F171B4 /* ViewController.swift in Sources */,
+				302A06013007A38700811CB5 /* AppCells.swift in Sources */,
+				302A06023007A38700811CB5 /* WindCells.swift in Sources */,
+				302A06033007A38700811CB5 /* DepthStyle.swift in Sources */,
+				302A06043007A38700811CB5 /* ActivityIllustrationView.swift in Sources */,
+				302A06053007A38700811CB5 /* BackgroundPatternView.swift in Sources */,
+				302A06063007A38700811CB5 /* CustomTabBar.swift in Sources */,
+				302A06073007A38700811CB5 /* ShakeEffect.swift in Sources */,
+				302A06083007A38700811CB5 /* SuccessOverlay.swift in Sources */,
+				302A06093007A38700811CB5 /* WindCompassView.swift in Sources */,
+				302A060A3007A38700811CB5 /* AppDataStore.swift in Sources */,
+				302A060B3007A38700811CB5 /* AppLink.swift in Sources */,
+				302A060C3007A38700811CB5 /* Notification+DataReset.swift in Sources */,
+				302A060D3007A38700811CB5 /* ActivitySession.swift in Sources */,
+				302A060E3007A38700811CB5 /* AppInsight.swift in Sources */,
+				302A060F3007A38700811CB5 /* LiveWindConditions.swift in Sources */,
+				302A06103007A38700811CB5 /* OutdoorActivity.swift in Sources */,
+				302A06113007A38700811CB5 /* WindAlert.swift in Sources */,
+				302A06123007A38700811CB5 /* WindDay.swift in Sources */,
+				302A06133007A38700811CB5 /* WindRecord.swift in Sources */,
+				302A06143007A38700811CB5 /* WindSpot.swift in Sources */,
+				302A06153007A38700811CB5 /* ActivityRecommendationService.swift in Sources */,
+				302A06163007A38700811CB5 /* BeaufortScale.swift in Sources */,
+				302A06173007A38700811CB5 /* FeedbackService.swift in Sources */,
+				302A06183007A38700811CB5 /* InsightsService.swift in Sources */,
+				302A06193007A38700811CB5 /* OpenMeteoService.swift in Sources */,
+				302A061A3007A38700811CB5 /* SessionExportService.swift in Sources */,
+				302A061B3007A38700811CB5 /* UIAppearanceService.swift in Sources */,
+				302A061C3007A38700811CB5 /* ActivityLogView.swift in Sources */,
+				302A061D3007A38700811CB5 /* ActivityLogViewModel.swift in Sources */,
+				302A061E3007A38700811CB5 /* ActivityPlannerView.swift in Sources */,
+				302A061F3007A38700811CB5 /* ActivityPlannerViewModel.swift in Sources */,
+				302A06203007A38700811CB5 /* SmartAlertsView.swift in Sources */,
+				302A06213007A38700811CB5 /* HomeView.swift in Sources */,
+				302A06223007A38700811CB5 /* HomeViewModel.swift in Sources */,
+				302A06233007A38700811CB5 /* HomeWidgets.swift in Sources */,
+				302A06243007A38700811CB5 /* InsightsView.swift in Sources */,
+				302A06253007A38700811CB5 /* OnboardingView.swift in Sources */,
+				302A06263007A38700811CB5 /* SettingsView.swift in Sources */,
+				302A06273007A38700811CB5 /* WindTrackerView.swift in Sources */,
+				302A06283007A38700811CB5 /* WindTrackerViewModel.swift in Sources */,
+				302A06293007A38700811CB5 /* AppsFlyerManager.swift in Sources */,
+				302A062A3007A38700811CB5 /* ConfigManager.swift in Sources */,
+				302A062B3007A38700811CB5 /* LoadingManager.swift in Sources */,
+				302A062C3007A38700811CB5 /* LoadingView.swift in Sources */,
+				302A062D3007A38700811CB5 /* LoadingViewController.swift in Sources */,
+				302A062E3007A38700811CB5 /* NetworkAvailability.swift in Sources */,
+				302A062F3007A38700811CB5 /* NoInternetView.swift in Sources */,
+				302A06303007A38700811CB5 /* NotificationPermissionManager.swift in Sources */,
+				302A06313007A38700811CB5 /* NotificationPermissionView.swift in Sources */,
+				302A06323007A38700811CB5 /* NotificationPermissionViewController.swift in Sources */,
+				302A06333007A38700811CB5 /* PushNotificationURLRouter.swift in Sources */,
+				302A06343007A38700811CB5 /* UserAgentBuilder.swift in Sources */,
+				302A06353007A38700811CB5 /* WebviewVC.swift in Sources */,
+				302A06363007A38700811CB5 /* MainTabView.swift in Sources */,
+				302A06373007A38700811CB5 /* AppDelegate.swift in Sources */,
+				302A06383007A38700811CB5 /* ContentView.swift in Sources */,
+				302A06393007A38700811CB5 /* SceneDelegate.swift in Sources */,
+				302A063A3007A38700811CB5 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23600310000000000000031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23600050000000000000005 /* NotificationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A23600120000000000000012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23600500000000000000050 /* NotificationServiceExtension */;
+			targetProxy = A23600110000000000000011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		30A366B92FF4602B00F171B4 /* LaunchScreen.storyboard */ = {
+		302A05FB3007A38700811CB5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				30A366B82FF4602B00F171B4 /* Base */,
+				302A05FA3007A38700811CB5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		30A366BB2FF4602B00F171B4 /* Main.storyboard */ = {
+		302A05FD3007A38700811CB5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				30A366BA2FF4602B00F171B4 /* Base */,
+				302A05FC3007A38700811CB5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -584,6 +760,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 236MarivelleTheory/236MarivelleTheory.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -602,7 +779,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fre.m3rvv3ll3th80r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -625,6 +802,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 236MarivelleTheory/236MarivelleTheory.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -643,7 +821,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fre.m3rvv3ll3th80r;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -779,6 +957,70 @@
 			};
 			name = Release;
 		};
+		A23600600000000000000060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fre.m3rvv3ll3th80r.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A23600610000000000000061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fre.m3rvv3ll3th80r.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -800,7 +1042,53 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A23600620000000000000062 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23600600000000000000060 /* Debug */,
+				A23600610000000000000061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A23600700000000000000070 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.16.0;
+			};
+		};
+		A23600710000000000000071 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A23600800000000000000080 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A23600700000000000000070 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		A23600810000000000000081 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A23600710000000000000071 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		A23600820000000000000082 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A23600700000000000000070 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 30A3648A2FF44D3400F171B4 /* Project object */;
 }
