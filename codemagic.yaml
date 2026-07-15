@@ -8,7 +8,7 @@ workflows:
           XCODE_WORKSPACE: "236MarivelleTheory.xcworkspace"
           XCODE_SCHEME: "236MarivelleTheory"
           BUNDLE_ID: "com.fre.m3rvv3ll3th80r"
-          EXTENSION_BUNDLE_ID: "com.hal.dfrh80sl93s.NotificationServiceExtension"
+          EXTENSION_BUNDLE_ID: "com.fre.m3rvv3ll3th80r.NotificationServiceExtension"
           APP_STORE_APP_ID: 6756367614
         xcode: latest
         cocoapods: 1.14.2
